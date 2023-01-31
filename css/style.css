@@ -13,7 +13,6 @@ body{
 }
 
 .main-container{
-    max-width: 500px;
     width: 100%;
     font-family: var(--font);
     color: var(--font-color);
@@ -222,13 +221,28 @@ footer{
 /* END FOOTER STYLE */
 
 /* TABLET SCREEN SIZE */
-/* @media only screen and (min-width: 800px) {
+@media only screen and (min-width: 500px) {
+
+    .main-container{
+        padding: 0 10px;
+    }
 
     .buttons-container{
         gap: 24px;
     }
 
-} */
+    .acc-container{
+        gap: 16px;
+    }
+
+}
+
+@media only screen and (min-width: 650px) {
+   .header{padding-left: 40px;}
+   .desc{padding-left: 60px;}
+   .buttons-container{gap: 35px;}
+   .acc-container{gap: 24px;}
+}
 
 /* DESKTOP SCREEN SIZE */
 @media only screen and (min-width: 1024px){
