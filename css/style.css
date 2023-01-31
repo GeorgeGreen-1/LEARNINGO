@@ -17,7 +17,7 @@ body{
     font-family: var(--font);
     color: var(--font-color);
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.616) 41.98%, rgba(255, 255, 255, 0.8) 100%), 
-    url("/assets/images/col.png");
+    url("/images/col.png");
     background-position: cover cover;
     background-repeat: no-repeat; 
 }
@@ -259,7 +259,7 @@ footer{
     }
 
     .left-side{
-        background: url(/assets/images/col.png);
+        background: url(/images/col.png);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
