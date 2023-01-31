@@ -16,8 +16,9 @@ body{
     width: 100%;
     font-family: var(--font);
     color: var(--font-color);
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.616) 41.98%, rgba(255, 255, 255, 0.8) 100%), 
-    url("/assets/images/col.png");
+    /* background: linear-gradient(180deg, rgba(255, 255, 255, 0.616) 41.98%, rgba(255, 255, 255, 0.8) 100%), 
+    url("/assets/images/col.png"); */
+    background: url("/assets/images/col.png");
     background-position: cover cover;
     background-repeat: no-repeat; 
 }
@@ -176,6 +177,7 @@ body{
     font-weight: 600;
     border: none;
     background: linear-gradient(270deg, #FB6564 0%, #A03CEA 100%);
+    cursor: pointer;
 }
 
 .signup-style{
@@ -183,6 +185,7 @@ body{
     font-size: 16px;
     color: var(--font-color);
     font-weight: 600;
+    cursor: pointer;
 }
 /* END BUTTONS CONTAINER */
 
@@ -225,6 +228,7 @@ footer{
 
     .main-container{
         padding: 0 10px;
+        height: 100vh;
     }
 
     .buttons-container{
